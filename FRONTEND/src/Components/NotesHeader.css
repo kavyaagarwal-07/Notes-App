@@ -1,0 +1,37 @@
+
+.notes-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px 0;
+    gap: 20px;
+}
+
+.notes-heading h1 {
+    margin: 0;
+    font-size: 30px;
+    color: #25213e;
+}
+
+.notes-heading p {
+    margin: 8px 0 0;
+    color: #8b859f;
+    font-size: 14px;
+}
+
+.add-note-btn {
+    background: #6945e8;
+    color: white;
+    border: none;
+    padding: 14px 22px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.add-note-btn:hover {
+    background: #5430d0;
+    transform: translateY(-2px);
+}

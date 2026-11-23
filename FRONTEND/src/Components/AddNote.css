@@ -1,0 +1,103 @@
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(25, 20, 50, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.note-modal {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.note-modal h2 {
+    margin: 0 0 25px;
+    color: #28243f;
+}
+
+.note-modal form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.note-modal label {
+    color: #49445f;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.note-modal input[type="text"],
+.note-modal textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px;
+    border: 1px solid #e2def0;
+    border-radius: 9px;
+    outline: none;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.note-modal input:focus,
+.note-modal textarea:focus {
+    border-color: #7652ed;
+}
+
+.note-modal textarea {
+    resize: vertical;
+}
+
+.pin-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+}
+
+.pin-option input {
+    accent-color: #6945e8;
+}
+
+.pin-option label {
+    cursor: pointer;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.modal-actions button {
+    padding: 12px 20px;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.cancel-btn {
+    background: #f1eff7;
+    color: #514b65;
+}
+
+.save-btn {
+    background: #6945e8;
+    color: white;
+}
+
+.save-btn:hover {
+    background: #5430d0;
+}
